@@ -105,10 +105,10 @@ export default function Home() {
         </div>
 
         <div className="event-section">
-          <Link href="https://agzl.app.link/vsML7WU9CRb?_p=c71729c39a077af1e21490ffe9b3" target="_blank">
-            <Image src="/cover.png" alt="Event Flyer" width={1200} height={1200} />
-            <p className="event-rsvp">FREE with RSVP</p>
-          </Link>
+          {/* <Link href="https://agzl.app.link/vsML7WU9CRb?_p=c71729c39a077af1e21490ffe9b3" target="_blank"> */}
+            <Image src="/reality.jpeg" alt="Event Flyer" width={1200} height={1200} />
+
+          {/* </Link> */}
 
           <div className="artist-list">
             {artists.map((artist, idx) => (
